@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+/* navbar */
+.navbar{
+    height: 54px;
+    padding: 0px 54px;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
+.navlogo{
+    width: 137px;
+    display: flex;
+    justify-content: center;
+    padding: 16px 16px 16px 10px;
+}
+ .logo{
+    height: 23px;
+    width: 108px;
+    background-image: url(microsoft-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.nav-select{
+    width: 50%;
+    height: 54px;
+    display: flex;
+    align-items: center;
+}
+.nav-select a{
+    text-decoration: none;
+    color: black;
+    height: 48px;
+    width: 97px;
+    padding: 16px 8px 10px;
+}
+.nav-select a:hover{
+    text-decoration: 3px solid black underline;
+}
+.button{
+    height: 53px;
+    width: 273px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.opt i{
+    padding-top: 7px;
+}
+.opt:hover{
+    text-decoration: 3px solid black underline;
+}
+.icons{
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+/* main section */
+.head{
+    height: 580px;
+    background-image: url(Hero.jg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10%;
+    padding: 48px;
+}
+.b1{
+    font-size: 16px;
+    height: 28px;
+    width: 57px;
+    color: black;
+    background-color: #ffb900;
+    font-weight: 700;
+    border: none;
+    margin-bottom: 8px;
+}
+h1{
+    margin-bottom: 16px;
+}
+p{
+    width: 313px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.b2{
+    font-size: 16px;
+    height: 40px;
+    width: 110px;
+    color: white;
+    background-color: #0067bb;
+    font-weight: 700;
+    border: none;
+}
+.keys{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.keyicons{
+    height: auto;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.iconbox{
+    width: auto;
+    height: 104px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconbox a{
+    font-size: 16px;
+    text-decoration: underline;
+    color: blue;
+    height: 24px;
+}
+.iconbox1{
+    width: 196px;
+    height: 72px;
+    margin: 0px 10px;
+}
+.iconbox i{
+    font-size: 40px;
+}
+.b{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.tags{
+    height: 24px;
+    width: 196px;
+}
+.iconbox2{
+    height: 72px;
+    width: 78px;
+    margin: 0px 10px;
+}
+.iconbox3{
+    height: 72px;
+    width: 114px;
+    margin: 0px 10px;
+}
+.iconbox4{
+    height: 72px;
+    width: 170px;
+    margin: 0px 10px;
+}
+.shopsection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.shopsection img{
+    width: 250px;
+    height: 127px;
+}
+.shopsection p{
+    width: 90%;
+}
+.section1{
+    height: 490px;
+    width: 250px;
+}
+.sec1{
+    height: 226px;
+    padding: 24px 24px 0px;
+}
+.shopsection h2{
+    margin-bottom: 12px;
+}
+.sec2{
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 button{
+    height: 56px;
+    width: 179px;
+    font-size: 16px;
+    color: white;
+    background-color: #0067bb;
+    border: none;
+}
+.blockimg{
+    padding: 0px 54.4px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.img{
+    width: 100%;
+    height: 500px;
+    background-color: #6B6565;
+    background-image: url(block3.avif);
+    background-size: cover;
+}
+.sub1{
+    height: 221px;
+    width: 272px;
+    color: white;
+    padding: 48px;
+    position: relative;
+    left: 40px;
+    top: 80px;
+}
+.sub1 p{
+    height: 72px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 24px;
+}
+.social{
+    height: 32px;
+    padding: 0px 54.4px;
+}
+.social i{
+    margin: 0px 10px;
+}
+button i{
+    margin: 0px 10px;
+}
+.last{
+    padding: 0px 54.4px;
+    display: flex;
+    justify-content: flex-end;
+}
+.last button{
+    height: 40px;
+    width: 143px;
+    border: none;
+    background-color: #c9c2c2;
+}
+footer{
+    position: relative;
+    bottom: 0px;
+}
+.foot1{
+    height: 364px;
+    color: #6B6565;
+    background-color: #f2f2f2;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fpart1{
+    width: 163px;
+    height: 364px;
+}
+.fpart1 h4{
+    /* font-size: 15px; */
+    padding: 36px 0px 4px;
+}
+.fpart1 a{
+    color: #616161;
+    text-decoration: none;
+    padding: 8px 0px 8px;
+    font-size: 11px;
+}
+.foot2{
+    height: 92px;
+    background-color: #f2f2f2;
+    padding: 30px 54.5px 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.fpart2{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fpart3{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;   
+}
+.foot2 a{
+    text-decoration: none;
+    color: #6B6565;
+    font-size: 11px;
+}
+.f2b i{
+    color: #6B6565;
+}
